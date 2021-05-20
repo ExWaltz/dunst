@@ -61,6 +61,7 @@ void input_handle_click(unsigned int button, bool button_down, int mouse_x, int 
                                         n->marked_for_closure = REASON_USER;
                                 } else {
                                         notification_do_action(n);
+                                        n->marked_for_closure = REASON_USER;
                                 }
                         }
                 }
