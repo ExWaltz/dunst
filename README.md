@@ -4,6 +4,9 @@
 
 <i>A highly configurable and lightweight notification daemon.</i>
 
+Changes done:
+* Close notification if action is done
+
 ![music](contrib/screenshots/music.png)
 
 ## Table of Contents
